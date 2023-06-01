@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+.heading-two {
+  text-align: center;
+  font-size: 3rem;
+}
+.row div {
+  height: 85px;
+  aspect-ratio: 1/1;
+  border-radius: 10px;
+  border: solid 8px;
+}
+.container {
+  max-width: 180px;
+  margin: auto;
+  display: flex;
+  gap: 10px;
+}
+.row {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+div#green {
+  background-color: green;
+}
+div#red {
+  background-color: red;
+}
+div#yellow {
+  background-color: yellow;
+}
+div#blue {
+  background-color: blue;
+}
